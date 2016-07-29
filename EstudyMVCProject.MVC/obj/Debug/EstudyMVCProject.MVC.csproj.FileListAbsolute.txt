@@ -1,0 +1,5 @@
+D:\Projetos\EstudyMVCProject\EstudyMVCProject.MVC\bin\EstudyMVCProject.MVC.dll.config
+D:\Projetos\EstudyMVCProject\EstudyMVCProject.MVC\bin\EstudyMVCProject.MVC.dll
+D:\Projetos\EstudyMVCProject\EstudyMVCProject.MVC\bin\EstudyMVCProject.MVC.pdb
+D:\Projetos\EstudyMVCProject\EstudyMVCProject.MVC\obj\Debug\EstudyMVCProject.MVC.dll
+D:\Projetos\EstudyMVCProject\EstudyMVCProject.MVC\obj\Debug\EstudyMVCProject.MVC.pdb

@@ -3,8 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{24038A89-CA48-425E-BB4A-1B8E24A792FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Services", "1- Services", "{3EBC68F4-6B65-4FE9-8165-0F8C28905A32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{FAE69A67-F552-425F-88A7-EBF73EC088BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{C98CAB7E-AD0C-4071-9033-7F2E28F1A301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{B9BDE26C-A033-4963-8F3E-3AB293E1805D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{CC405A1C-3AFC-4A2B-A5AF-FDF8C06E0CC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{B0B6E7AC-F52E-4E82-8115-FA1A36F2A04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudyMVCProject.MVC", "EstudyMVCProject.MVC\EstudyMVCProject.MVC.csproj", "{FDA663DE-478A-4ED2-A819-9C8A32B1B7C8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA663DE-478A-4ED2-A819-9C8A32B1B7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA663DE-478A-4ED2-A819-9C8A32B1B7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA663DE-478A-4ED2-A819-9C8A32B1B7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA663DE-478A-4ED2-A819-9C8A32B1B7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC405A1C-3AFC-4A2B-A5AF-FDF8C06E0CC2} = {B9BDE26C-A033-4963-8F3E-3AB293E1805D}
+		{B0B6E7AC-F52E-4E82-8115-FA1A36F2A04F} = {B9BDE26C-A033-4963-8F3E-3AB293E1805D}
+		{FDA663DE-478A-4ED2-A819-9C8A32B1B7C8} = {24038A89-CA48-425E-BB4A-1B8E24A792FD}
 	EndGlobalSection
 EndGlobal
